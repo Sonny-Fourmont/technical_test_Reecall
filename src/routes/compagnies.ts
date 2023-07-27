@@ -6,8 +6,7 @@ router.get('/compagnies', (req: Request, res: Response) => {
     res.send('compagnies test');
 });
 router.get(`/compagnies/:id`, (req: Request, res: Response) => {
-    res.send(`${req.params.id}`);
-    res.send("id test");
+    res.send(`id test: ${req.params.id}`);
 });
 router.post('/compagnies/create', (req: Request, res: Response) => {
     res.send("create test");
