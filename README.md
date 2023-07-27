@@ -15,7 +15,7 @@ sudo <your package manager> npm
 ```
 - MacOS:
 ```bash
-sudo brew install npm
+brew install npm
 ```
 3- Install the dependencies with npm:
 ```bash
