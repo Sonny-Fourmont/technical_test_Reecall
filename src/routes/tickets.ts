@@ -1,5 +1,4 @@
-const express = require("express");
-import {Router, Request, Response} from "express";
+import express, {Router, Request, Response} from "express";
 const router: Router = express.Router();
 
 router.get('/tickets', (req: Request, res: Response) => {
