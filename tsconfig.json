@@ -10,7 +10,6 @@
     "files": [
         "./src/index.ts",
         "./src/api/api.ts",
-        "./src/app/app.ts",
         "./src/routes/compagnies.ts",
         "./src/routes/contacts.ts",
         "./src/routes/tickets.ts",
