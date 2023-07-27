@@ -1,5 +1,4 @@
-const express = require("express");
-import {Express} from "express";
+import express, {Express, Request, Response} from "express";
 const app: Express = express();
 
 const HOST: string = "localhost";
@@ -15,7 +14,7 @@ import transactions from "./routes/transactions";
 app.use('/', compagnies, contacts, tickets, transactions);
 
 // routes
-app.get('/', (req: any, res: any) => {
+app.get('/', (req: Request, res: Response) => {
     res.send("test");
 });
 
