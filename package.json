@@ -2,12 +2,12 @@
   "name": "technical_test_reecall",
   "version": "1.0.0",
   "description": "Applicants must build a service that connects to the API HubSpot",
+  "author": "Sonny Fourmont",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.17",
