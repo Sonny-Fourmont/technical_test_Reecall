@@ -2,11 +2,17 @@
     "compilerOptions": {
         "module": "CommonJS",
         "outDir": "./js",
-        "target": "ES2022",
+        "target": "ES2017",
         "noEmitOnError": true,
         "strict": true
     },
     "files": [
-        "./src/index.ts"
+        "./src/index.ts",
+        "./src/api/api.ts",
+        "./src/app/app.ts",
+        "./src/routes/compagnies.ts",
+        "./src/routes/contacts.ts",
+        "./src/routes/tickets.ts",
+        "./src/routes/transactions.ts"
     ]
 }
