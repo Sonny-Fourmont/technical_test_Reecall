@@ -6,18 +6,17 @@ const HOST: string = "localhost";
 const PORT: number = 3000
 
 // features
-const compagnies = require("./routes/compagnies");
-// const contacts = require("./routes/contacts");
-// const tickets = require("./routes/tickets");
-// const transactions = require("./routes/transactions");
+import compagnies from "./routes/compagnies";
+import contacts from "./routes/contacts";
+import tickets from "./routes/tickets";
+import transactions from "./routes/transactions";
 
 // Middleware
-app.use(express.json('/compagnies', compagnies));
-// , contacts, tickets, transactions
+app.use('/', compagnies, contacts, tickets, transactions);
 
 // routes
 app.get('/', (req: any, res: any) => {
-    res.send("tst");
+    res.send("test");
 });
 
 // listener
