@@ -30,11 +30,14 @@ npx tsc
 ```bash
 node ./js/index.js
 ```
-2- Curl the server
-```bash
-curl localhost:3000/<any routes>
+2- Get the result:
+
+Use a simple browser like: Firefox, Chrome... With this URL:
 ```
-3- Routes
+localhost:3000/<any routes>
+```
+Your result will appear as a JSON file
+
 Here are some patterns:
 do the same with: compagnies, contacts, tickets, transactions.
 ```bash
@@ -45,7 +48,6 @@ localhost:3000/compagnies/create || localhost:3000/compagnies/delete || localhos
 ## Technologies Used
 - TypeScript
 - JavaScrpit
-- Axios (TS & JS)
 - Hubspot-api-client
 - Node.JS
 - Express (TS & JS)
