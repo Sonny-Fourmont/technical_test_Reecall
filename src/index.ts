@@ -19,8 +19,8 @@ app.get('/', (req: Request, res: Response) => {
 localhost:3000/ ; \n\
 localhost:3000/(companies/contacts/tickets/transactions) ; \n\
 localhost:3000/(companies/contacts/tickets/transactions)/<ID> ; \n\
-localhost:3000/(companies/contacts/tickets/transactions)/create ; ww\n\
-localhost:3000/(companies/contacts/tickets/transactions)/delete ; ww\n\
+localhost:3000/(companies/contacts/tickets/transactions)/create ; \n\
+localhost:3000/(companies/contacts/tickets/transactions)/delete ; \n\
 localhost:3000/(companies/contacts/tickets/transactions)/update");
 });
 
