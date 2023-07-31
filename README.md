@@ -36,14 +36,18 @@ Use a simple browser like: Firefox, Chrome... With this URL:
 ```
 localhost:3000/<any routes>
 ```
+or use Postman or ThunderClient on VsCode with the same URL.
+
+---
+
 Your result will appear as a JSON file
 
 Here are some patterns:
-do the same with: compagnies, contacts, tickets, transactions.
+do the same with: companies, contacts, tickets, transactions.
 ```bash
 localhost:3000/
-localhost:3000/compagnies || localhost:3000/compagnies/<ID>
-localhost:3000/compagnies/create || localhost:3000/compagnies/delete || localhost:3000/compagnies/update
+localhost:3000/companies || localhost:3000/companies/<ID>
+localhost:3000/companies/create || localhost:3000/companies/delete || localhost:3000/companies/update
 ```
 ## Technologies Used
 - TypeScript
