@@ -36,6 +36,10 @@ Use a simple browser like: Firefox, Chrome... With this URL:
 ```
 localhost:3000/<any routes>
 ```
+or use Postman or ThunderClient on VsCode with the same URL.
+
+---
+
 Your result will appear as a JSON file
 
 Here are some patterns:
