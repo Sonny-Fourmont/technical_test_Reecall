@@ -1,5 +1,6 @@
 import express, {Express, Request, Response} from "express";
 const app: Express = express();
+const cors = require('cors');
 
 const HOST: string = "localhost";
 const PORT: number = 3000
@@ -11,6 +12,7 @@ import tickets from "./routes/tickets";
 import transactions from "./routes/transactions";
 
 // Middleware
+app.use(cors())
 app.use('/', companies, contacts, tickets, transactions);
 
 // routes
